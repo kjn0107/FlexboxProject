@@ -1,17 +1,142 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
+
 body{
     font-family: Roboto;
-    height: 100vh;
     display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.hero, .info, .quote{
+    padding: 50px 250px;
 }
 
 .header{
+    color: #f9faf8;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 250px;
+}
 
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
 }
 
 .container{
+    flex: 1;
+    display: flex;
+    flex-direction: column  ;
+}
 
+.hero{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hero-main{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+
+.hero-button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+
+.hero-image{
+    width: 400px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-text{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-under{
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.action-bar{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.action-button{
+    background-color: transparent;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    border-radius: 5px;
 }
 
 .footer{
-
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 5px 0px;
 }
+
+.container div p{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
