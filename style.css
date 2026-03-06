@@ -108,7 +108,8 @@ a{
 .action{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 .action-bar{
@@ -116,16 +117,25 @@ a{
     color: #f9faf8;
     font-size: 18px;
     display: flex;
-    justify-content: space-between;
-    padding: 10px 10px;
+    width: 1500px;
+    justify-content: space-around;
+    padding: 20px 15px;
     border-radius: 5px;
 }
 
 .action-button{
     background-color: transparent;
     border-color: #f9faf8;
+    border-width: 3px;
     color: #f9faf8;
     border-radius: 5px;
+    align-self: center;
+    padding: 5px 20px;
+    font-weight: 600;
+}
+
+.c-to-a{
+    font-weight: bold;
 }
 
 .footer{
